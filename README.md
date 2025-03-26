@@ -43,7 +43,7 @@ Design a backend system where:
 
 ## ⚠️ What “Simulated” Means
 
-> In places where Redis, Celery, or actual SDKs were expected, we simulated the behavior with standard Python tools (per CloserX instructions: *"We just want to see your logics."*)
+> In places where Redis, Celery, or actual SDKs were expected, we simulated the behavior with standard Python tools.
 
 ### 🧵 Celery → Simulated
 Instead of `task.delay()`, we call the function directly:
