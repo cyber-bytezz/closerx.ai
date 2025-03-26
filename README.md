@@ -172,5 +172,3 @@ Fullstack Web Engineer
 ---
 
 > 💥 This project is built to demonstrate **logic-first scalable design** — ready to plug into real SDKs and production queues like Redis + Celery when needed.
-```
-
