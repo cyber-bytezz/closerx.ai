@@ -1,4 +1,4 @@
-# 📞 CloserX Assignment – Campaign Calling System (200 Concurrency with 4 SDK Accounts)
+# 📞 CloserX AI– Campaign Calling System (200 Concurrency with 4 SDK Accounts)
 
 A fully functional Django-based backend system to manage and run AI call campaigns with concurrency scaling, queuing, and logical SDK triggering — as per the assignment given by CloserX.
 
