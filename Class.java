@@ -7,10 +7,11 @@ class UserMainCode
     public String asciiSumCheck(String[] input1, int input2, int input3){
         // Read only region end
         for (int i = 0; i < input2; i++) {
+            char a = input1[i].charAt(0);
             for (int j = i + 1; j < input2; j++) {
-                int sum = (int)input1[i].charAt(0) + (int)input1[j].charAt(0);
-                if (sum == input3) {
-                    return input1[i] + input1[j];
+                char b = input1[j].charAt(0);
+                if ((int)a + (int)b == input3) {
+                    return "" + a + b;
                 }
             }
         }
